@@ -3,7 +3,7 @@
 import sys
 from lib.helper import cat, readfile
 
-TEXT = None
+TEXT = None #TEXT is a variable assigned a null value.
 ARG_CNT = len(sys.argv) - 1
 
 if ARG_CNT == 0:
