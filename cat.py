@@ -1,6 +1,6 @@
 """Implementing the cat shell command in python."""
 
-import sys
+import sys #sys is a module
 from lib.helper import cat, readfile
 
 TEXT = None #TEXT is a variable assigned a null value.
