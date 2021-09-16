@@ -3,7 +3,7 @@
 import sys
 from lib.helper import tail, readfile
 
-TEXT = None
+TEXT = None # text is a variable 
 ARG_CNT = len(sys.argv) - 1
 
 if ARG_CNT == 0:
