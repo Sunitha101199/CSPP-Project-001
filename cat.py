@@ -4,7 +4,7 @@ import sys
 from lib.helper import cat, readfile
 
 TEXT = None #TEXT is a variable assigned a null value.
-ARG_CNT = len(sys.argv) - 1
+ARG_CNT = len(sys.argv) - 1 #ARG_CNT is a variable with an int value. 
 
 if ARG_CNT == 0:
     TEXT = sys.stdin.read()
